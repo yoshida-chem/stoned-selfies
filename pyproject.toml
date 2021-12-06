@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "stoned"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+rdkit-pypi = "^2021.9.2"
+selfies = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
